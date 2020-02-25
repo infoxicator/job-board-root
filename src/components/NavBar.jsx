@@ -20,7 +20,7 @@ const NavBar = ({ loggedIn, onLogout }) => {
         <Link className="navbar-item" to="/candidates">Candidates</Link>
         <Link className="navbar-item" to="/companies">Companies</Link>
         <Link className="navbar-item" to="/chat">Chat</Link>
-        {/* <Link className="navbar-item" to="/login">Login</Link> */}
+        <Link className="navbar-item" to="/login">Login</Link>
       </div>
     </nav>
   );
